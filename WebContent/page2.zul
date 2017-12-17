@@ -1,0 +1,30 @@
+<?page title="Auto Generated index.zul"?>
+<window title="Hello World!!" apply="com.training.controllers.IndexCtl" border="normal" height="100%" width="100%">
+
+	<grid>
+
+
+
+		<rows>
+			<row>
+			
+			<cell width="10%"><label>Login</label></cell>
+			<cell width="90%"><textbox placeholder="Login" width="100%"></textbox></cell>
+			
+			</row>
+			<row>
+			<cell ><button id="btnOK" label="OK"></button></cell>
+			
+			</row>
+			<row></row>
+			<row></row>
+			<row></row>
+			<row></row>
+		</rows>
+
+	</grid>
+
+
+	<label value="You are using: ${desktop.webApp.version}" />
+
+</window>
